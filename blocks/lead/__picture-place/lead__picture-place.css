@@ -1,0 +1,9 @@
+.lead__picture-place {
+  margin: 0;
+  margin-top: 64px;
+}
+@media screen and (max-width: 1024px) {
+    .lead__picture-place {
+        max-width: 100%;
+      }
+}

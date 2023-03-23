@@ -3,8 +3,12 @@
   line-height: 28px;
   font-weight: 400;
   margin-bottom: 6px;
+  text-decoration: none;
 }
-@media screen and (max-width: 425px) {
+.link_place_header_active {
+  text-decoration: underline;
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
     .link_place_header {
         font-size: 18px;
         line-height: 20px;

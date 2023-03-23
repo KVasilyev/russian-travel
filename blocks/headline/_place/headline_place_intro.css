@@ -3,7 +3,7 @@
   line-height: 58px;
   max-width: 690px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
     .headline_place_intro {
         font-size: 32px;
         line-height: 35px;

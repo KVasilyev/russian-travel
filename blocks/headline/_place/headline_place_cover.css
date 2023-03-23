@@ -3,9 +3,12 @@
   line-height: 76px;
   max-width: 560px;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
     .headline_place_cover {
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
       }

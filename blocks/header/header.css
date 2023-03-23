@@ -13,8 +13,9 @@
         width: calc(100% - 48px);
       }
 }
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
     .header {
+        padding-top: 16px;
         width: calc(100% - 32px);
       }
 }

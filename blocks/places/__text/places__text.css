@@ -5,3 +5,9 @@
   font-style: normal;
   line-height: 163%;
 }
+
+@media screen and (max-width: 768px) {
+  .places__text {
+    font-size: 16px;
+    }
+}

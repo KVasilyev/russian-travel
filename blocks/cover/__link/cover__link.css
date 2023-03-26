@@ -20,7 +20,6 @@
   transition: .5s;
   z-index: 2;
 }
-
 .cover__link:hover:before {
   opacity: .8;
 }

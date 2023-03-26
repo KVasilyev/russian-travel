@@ -1,10 +1,13 @@
 .places__url {
   align-self: end;
 }
-
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .places__url {
-      max-width: calc(100% - 32px);
-      margin-left: 16px;
-    }
+@media screen and (max-width: 768px) {
+    .places__url {
+        padding-left: 24px;
+      }
+}
+@media screen and (max-width: 425px) {
+    .places__url {
+        padding-left: 16px;
+      }
 }

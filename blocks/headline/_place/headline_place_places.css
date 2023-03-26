@@ -2,17 +2,25 @@
   font-size: 72px;
   line-height: 76px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .headline_place_places {
         font-size: 42px;
         line-height: 46px;
       }
 }
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .headline_place_places {
-        max-width: calc(100% - 32px);
-        margin-left: 16px;
         font-size: 32px;
         line-height: 35px;
+      }
+}
+@media screen and (max-width: 768px) {
+    .headline_place_places {
+        padding-left: 24px;
+      }
+}
+@media screen and (max-width: 425px) {
+    .headline_place_places {
+        padding-left: 16px;
       }
 }

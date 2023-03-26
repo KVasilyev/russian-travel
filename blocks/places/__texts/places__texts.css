@@ -3,10 +3,8 @@
   flex-direction: column;
   gap: 24px;
 }
-
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .places__texts {
-      max-width: calc(100% - 32px);
-      margin-left: 16px;
-    }
+@media screen and (max-width: 768px) {
+    .places__texts {
+        align-items: center;
+      }
 }

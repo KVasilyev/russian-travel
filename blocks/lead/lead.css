@@ -4,21 +4,18 @@
   flex-direction: column;
   align-items: center;
   padding-top: 56px;
-  max-width: 984px;
+  max-width: 1080px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 @media screen and (max-width: 1024px) {
     .lead {
-        padding-top:48px;
-        width: calc(100% - 96px);
+        padding-top: 48px;
       }
 }
 @media screen and (max-width: 768px) {
     .lead {
-        width: 100%;
-      }
-}
-@media screen and (max-width: 425px) {
-    .lead {
-        padding-top:48px;
+        padding-left: 0;
+        padding-right: 0;    
       }
 }

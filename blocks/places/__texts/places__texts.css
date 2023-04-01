@@ -3,8 +3,16 @@
   flex-direction: column;
   gap: 24px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 620px) {
     .places__texts {
-        align-items: center;
+        padding-left: 24px;
+        padding-right: 24px;
       }
+}
+
+@media screen and (max-width: 425px) {
+  .places__texts {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
 }

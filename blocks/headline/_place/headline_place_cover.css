@@ -6,10 +6,10 @@
   position: relative;
   z-index: 2;
 }
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 712px) {
     .headline_place_cover {
-        font-size: 9.3vw;
-        line-height: 9.9vw;
+        font-size: 10.1vw;
+        line-height: 10.6vw;
       }
 }
 @media screen and (max-width: 425px) {

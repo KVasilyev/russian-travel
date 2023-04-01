@@ -2,25 +2,31 @@
   font-size: 72px;
   line-height: 76px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 920px) {
+  .headline_place_places {
+      font-size: 7.8vw;
+      line-height: 8.2vw;
+    }
+}
+@media screen and (max-width: 768px) {
     .headline_place_places {
         font-size: 42px;
         line-height: 46px;
       }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 620px) {
     .headline_place_places {
         font-size: 32px;
         line-height: 35px;
-      }
-}
-@media screen and (max-width: 768px) {
-    .headline_place_places {
         padding-left: 24px;
+        padding-right: 24px;
       }
 }
+
 @media screen and (max-width: 425px) {
-    .headline_place_places {
-        padding-left: 16px;
-      }
+  .headline_place_places {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
 }

@@ -5,7 +5,7 @@
   margin-bottom: 6px;
   text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     .link_place_header {
         font-size: 18px;
         line-height: 20px;
